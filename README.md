@@ -3,7 +3,7 @@ Dev Book
 
 Dev guides for getting things done.
 
-* [Git](./docs/git)
+* [Git](./docs/git.md)
 
 Contributing
 ------------

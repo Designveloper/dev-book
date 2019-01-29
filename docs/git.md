@@ -23,7 +23,7 @@ messages.
 * For large projects that requires complex release process, consider applying
 [Git flow](https://danielkummer.github.io/git-flow-cheatsheet)
 * Name your branches properly so that everyone can understand: `feature/sign-up`
-, `fix/login-issue`, ...
+, `fix/login-issue`,...
 
 Work on task
 ------------
@@ -71,6 +71,16 @@ git push origin <branch-name> -f
 ```
 
 Merge PR using Git web tool.
+
+If you want to merge it manually, you should merge using `--no-ff` option to
+reserve merge commit message on git commit tree.
+```bash
+git fetch origin
+git checkout master
+git pull origin master
+git merge <branch-name> --no-ff
+git push origin master 
+```
 
 Delete local feature branch after merging.
 ```bash

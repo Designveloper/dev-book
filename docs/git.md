@@ -3,8 +3,6 @@ Git
 
 Guide for using git version control.
 
-* [General rules](./git#maintainance)
-
 General rules
 -------------
 
